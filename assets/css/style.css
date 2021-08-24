@@ -1,0 +1,32 @@
+div.main-navigation {
+    background: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav div.logo {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    padding: 25px 0;
+}
+
+nav ul li, nav ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+div.main-banner {
+    background-image: url('../img/bg-img.jpeg');
+}
